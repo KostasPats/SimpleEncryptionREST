@@ -1,4 +1,4 @@
-package test
+package enc
 
 /**
  * Created by user on 4/23/2017.
@@ -9,10 +9,10 @@ class Ciphertext {
     private String encData
     private Crypto crypto
 
-    public Ciphertext() {
+    Ciphertext() {
     }
 
-    public Ciphertext(String uuid, String data) {
+    Ciphertext(String uuid, String data) {
         this.uuid = uuid
         this.crypto = new Crypto()
 

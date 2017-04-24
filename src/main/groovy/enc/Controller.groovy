@@ -1,4 +1,4 @@
-package test
+package enc
 
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod
 
 import java.util.concurrent.atomic.AtomicLong
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RestController
 
 /**
  * Created by user on 4/23/2017.

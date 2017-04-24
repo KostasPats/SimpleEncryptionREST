@@ -1,4 +1,4 @@
-package test
+package enc
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider
 
@@ -12,7 +12,6 @@ import java.security.PublicKey
 import java.security.Security
 import java.security.spec.EncodedKeySpec
 import java.security.spec.PKCS8EncodedKeySpec
-import java.security.spec.X509EncodedKeySpec
 
 /**
  * Created by user on 4/23/2017.

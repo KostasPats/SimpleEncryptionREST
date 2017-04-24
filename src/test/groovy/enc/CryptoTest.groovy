@@ -1,6 +1,6 @@
-package test;
+package enc
 
-import org.junit.Test;
+import org.junit.Test
 
 
 /**
